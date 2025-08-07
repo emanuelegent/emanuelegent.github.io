@@ -6,107 +6,139 @@
   <style>
     body {
       font-family: Georgia, serif;
-      max-width: 800px;
-      margin: auto;
-      padding: 2em;
       background-color: #f9f9f9;
+      margin: 0;
+      padding: 2em;
     }
+
+    .main-container {
+      display: flex;
+      max-width: 1000px;
+      margin: auto;
+      gap: 30px;
+      align-items: flex-start;
+    }
+
+    .profile-pic {
+      width: 160px;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+
+    .content {
+      max-width: 800px;
+    }
+
     h1 {
       font-size: 2em;
       color: #333;
+      margin-top: 0;
     }
-    img {
-      float: right;
-      width: 160px;
-      margin-left: 20px;
-      border-radius: 4px;
-    }
+
     h2 {
       color: #444;
       border-bottom: 1px solid #ccc;
       padding-bottom: 4px;
+      margin-top: 1.5em;
     }
+
     p {
       line-height: 1.6;
     }
-    .clear {
-      clear: both;
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    li {
+      margin-bottom: 0.6em;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Emanuele Silvio Gentile, Dr</h1>
-  <p><strong>Postdoctoral Research Associate</strong><br>
-  Princeton University / NOAA Geophysical Fluid Dynamics Laboratory</p>
-  <<img src="profile.jpg" alt="Emanuele Gentile" width="180">
-  
-  <h2>About Me</h2>
-  <p>
-    I am a postdoctoral researcher at the NOAA Geophysical Fluid Dynamics Laboratory and Princeton University, working on boundary-layer turbulence, air-sea interactions, and extreme midlatitude cyclones. My current research explores how turbulent momentum fluxes modulate wind and precipitation extremes in a warming climate using high-resolution Earth system models.
-  </p>
+  <div class="main-container">
+    <img src="profile.jpg" alt="Emanuele Gentile" class="profile-pic">
+    <div class="content">
+      <h1>Emanuele Silvio Gentile</h1>
+      <p><strong>Postdoctoral Research Associate</strong><br>
+      Princeton University / NOAA Geophysical Fluid Dynamics Laboratory</p>
 
-  <div class="clear"></div>
+      <h2>About Me</h2>
+      <p>
+        I am a postdoctoral researcher at the NOAA Geophysical Fluid Dynamics Laboratory and Princeton University, working on boundary-layer turbulence, air-sea interactions, and extreme midlatitude cyclones. My current research explores how turbulent momentum fluxes modulate wind and precipitation extremes in a warming climate using high-resolution Earth system models.
+      </p>
 
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Boundary-layer turbulence and sub-grid scale modeling</li>
-    <li>Air-sea interaction in extreme weather events</li>
-    <li>Machine learning for climate model parameterization</li>
-    <li>High-resolution modeling of midlatitude cyclones</li>
-  </ul>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Boundary-layer turbulence and sub-grid scale modeling</li>
+        <li>Air-sea interaction in extreme weather events</li>
+        <li>Machine learning for climate model parameterization</li>
+        <li>High-resolution modeling of midlatitude cyclones</li>
+      </ul>
 
-  <h2>Selected Publications</h2>
-  <ul>
-    <li>
-      <b>Gentile, E.S.</b>, Zhao, M., Larson, V., Zarzycki, C., Svensson, G., Donner, L. (2025). 
-      <i>Enhancing nocturnal convection and Low-Level-Jet representation over the Great Plains via prognostic momentum fluxes and generalized turbulent lengthscale in CLUBB turbulence scheme</i>. 
-      Submitted to the Journal of Advances in Modeling Earth Systems.
-    </li>
-    <li>
-      <b>Gentile, E.S.</b>, Harris, L., Zhao, M., Hodges, K., Tan, Z., Cheng, K.-Y., Zhou, L. (2025). 
-      <i>Response of Extreme North Atlantic Midlatitude Cyclones to a Warmer Climate in the GFDL X-SHiELD Kilometer-Scale Global Storm-Resolving Model</i>. 
-      Geophysical Research Letters. 
-      <a href="https://doi.org/10.1029/2024GL112570" target="_blank">DOI: 10.1029/2024GL112570</a>
-    </li>
-    <li>
-      Pantillon, F., Davolio, S., Avolio, E., Calvo-Sancho, C., Carrió, D.S., Dafis, S., Flaounas, E., <b>Gentile, E.S.</b>, Gonzalez-Aleman, J.J., Gray, S.L., Miglietta, M.M., Patlakas, P., Pytharoulis, I., Ricard, D., Ricchi, A., Sanchez, C. (2024). 
-      <i>The crucial representation of deep convection to predict the cyclogenesis of medicane Ianos</i>. 
-      Weather and Climate Dynamics. 
-      <a href="https://doi.org/10.5194/egusphere-2024-1105" target="_blank">DOI: 10.5194/egusphere-2024-1105</a>
-    </li>
-    <li>
-      <b>Gentile, E.S.</b>, Zhao, M., Tan, Z., Larson, V., Zarzycki, C. (2024). 
-      <i>The Effect of Coupling Between CLUBB Turbulence Scheme and Surface Momentum Flux on Global Wind Simulations</i>. 
-      Journal of Advances in Modeling Earth Systems. 
-      <a href="https://doi.org/10.1029/2024MS004295" target="_blank">DOI: 10.1029/2024MS004295</a>
-    </li>
-    <li>
-      <b>Gentile, E.S.</b>, Zhao, M., Hodges, K. (2023). 
-      <i>Poleward intensification of midlatitude extreme winds under warmer climate</i>. 
-      npj Climate and Atmospheric Science, 6, 219. 
-      <a href="https://doi.org/10.1038/s41612-023-00540-x" target="_blank">DOI: 10.1038/s41612-023-00540-x</a>
-    </li>
-    <li>
-      <b>Gentile, E.S.</b>, Gray, S.L. (2023). 
-      <i>Attribution of observed extreme marine wind speeds and associated hazards to midlatitude cyclone conveyor belt jets near the British Isles</i>. 
-      International Journal of Climatology, 43, 2735–2753. 
-      <a href="https://doi.org/10.1002/joc.7999" target="_blank">DOI: 10.1002/joc.7999</a>
-    </li>
-    <li>
-      <b>Gentile, E.S.</b>, Gray, S.L., Lewis, H.W. (2022). 
-      <i>The sensitivity of probabilistic convective-scale forecasts of an extratropical cyclone to atmosphere-ocean-wave coupling</i>. 
-      Quarterly Journal of the Royal Meteorological Society, 148, 685–710. 
-      <a href="https://doi.org/10.1002/qj.4225" target="_blank">DOI: 10.1002/qj.4225</a>
-    </li>
-    <li>
-      <b>Gentile, E.S.</b>, Gray, S.L., Barlow, J.F., Lewis, H.W., Edwards, J.M. (2021). 
-      <i>The impact of atmosphere-ocean-wave coupling on the near-surface wind speed in forecasts of extratropical cyclones</i>. 
-      Boundary-Layer Meteorology, 180, 105–129. 
-      <a href="https://doi.org/10.1007/s10546-021-00614-4" target="_blank">DOI: 10.1007/s10546-021-00614-4</a>
-    </li>
-  </ul>
+      <h2>Selected Publications</h2>
+      <ul>
+        <li>
+          <b>Gentile, E.S.</b>, Zhao, M., Larson, V., Zarzycki, C., Svensson, G., Donner, L. (2025). 
+          <i>Enhancing nocturnal convection and Low-Level-Jet representation over the Great Plains via prognostic momentum fluxes and generalized turbulent lengthscale in CLUBB turbulence scheme</i>. 
+          Submitted to the Journal of Advances in Modeling Earth Systems.
+        </li>
+        <li>
+          <b>Gentile, E.S.</b>, Harris, L., Zhao, M., Hodges, K., Tan, Z., Cheng, K.-Y., Zhou, L. (2025). 
+          <i>Response of Extreme North Atlantic Midlatitude Cyclones to a Warmer Climate in the GFDL X-SHiELD Kilometer-Scale Global Storm-Resolving Model</i>. 
+          Geophysical Research Letters. 
+          <a href="https://doi.org/10.1029/2024GL112570" target="_blank">DOI: 10.1029/2024GL112570</a>
+        </li>
+        <li>
+          Pantillon, F., Davolio, S., Avolio, E., Calvo-Sancho, C., Carrió, D.S., Dafis, S., Flaounas, E., <b>Gentile, E.S.</b>, Gonzalez-Aleman, J.J., Gray, S.L., Miglietta, M.M., Patlakas, P., Pytharoulis, I., Ricard, D., Ricchi, A., Sanchez, C. (2024). 
+          <i>The crucial representation of deep convection to predict the cyclogenesis of medicane Ianos</i>. 
+          Weather and Climate Dynamics. 
+          <a href="https://doi.org/10.5194/egusphere-2024-1105" target="_blank">DOI: 10.5194/egusphere-2024-1105</a>
+        </li>
+        <li>
+          <b>Gentile, E.S.</b>, Zhao, M., Tan, Z., Larson, V., Zarzycki, C. (2024). 
+          <i>The Effect of Coupling Between CLUBB Turbulence Scheme and Surface Momentum Flux on Global Wind Simulations</i>. 
+          Journal of Advances in Modeling Earth Systems. 
+          <a href="https://doi.org/10.1029/2024MS004295" target="_blank">DOI: 10.1029/2024MS004295</a>
+        </li>
+        <li>
+          <b>Gentile, E.S.</b>, Zhao, M., Hodges, K. (2023). 
+          <i>Poleward intensification of midlatitude extreme winds under warmer climate</i>. 
+          npj Climate and Atmospheric Science, 6, 219. 
+          <a href="https://doi.org/10.1038/s41612-023-00540-x" target="_blank">DOI: 10.1038/s41612-023-00540-x</a>
+        </li>
+        <li>
+          <b>Gentile, E.S.</b>, Gray, S.L. (2023). 
+          <i>Attribution of observed extreme marine wind speeds and associated hazards to midlatitude cyclone conveyor belt jets near the British Isles</i>. 
+          International Journal of Climatology, 43, 2735–2753. 
+          <a href="https://doi.org/10.1002/joc.7999" target="_blank">DOI: 10.1002/joc.7999</a>
+        </li>
+        <li>
+          <b>Gentile, E.S.</b>, Gray, S.L., Lewis, H.W. (2022). 
+          <i>The sensitivity of probabilistic convective-scale forecasts of an extratropical cyclone to atmosphere-ocean-wave coupling</i>. 
+          Quarterly Journal of the Royal Meteorological Society, 148, 685–710. 
+          <a href="https://doi.org/10.1002/qj.4225" target="_blank">DOI: 10.1002/qj.4225</a>
+        </li>
+        <li>
+          <b>Gentile, E.S.</b>, Gray, S.L., Barlow, J.F., Lewis, H.W., Edwards, J.M. (2021). 
+          <i>The impact of atmosphere-ocean-wave coupling on the near-surface wind speed in forecasts of extratropical cyclones</i>. 
+          Boundary-Layer Meteorology, 180, 105–129. 
+          <a href="https://doi.org/10.1007/s10546-021-00614-4" target="_blank">DOI: 10.1007/s10546-021-00614-4</a>
+        </li>
+      </ul>
 
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:eg3736@princeton.edu">eg3736@princeton.edu</a></p>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:eg3736@princeton.edu">eg3736@princeton.edu</a></p>
+    </div>
+  </div>
 </body>
 </html>
