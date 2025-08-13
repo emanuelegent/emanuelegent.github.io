@@ -9,7 +9,7 @@ profile:
   image: prof_pic_new.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 205-A GFDL </p>
+    <p>205-A GFDL </p>
     <p>201 Forrestal Rd</p>
     <p>Princeton, NJ, USA</p>
 
