@@ -2,12 +2,12 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Emanuele Silvio Gentile, Dr # the website title (if blank, full name will be used instead)
+title: "Emanuele Silvio Gentile", Dr # the website title (if blank, full name will be used instead)
 first_name: Emanuele Silvio
 middle_name: 
 last_name: Gentile
 contact_note: >
-  You can reach me in the way you prefer - email and LinkedIn tend to work best.
+  "You can reach me in the way you prefer - email and LinkedIn tend to work best."
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
