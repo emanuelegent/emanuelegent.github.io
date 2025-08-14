@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<a href='https://ncas.ac.uk/'>Research Scientist @ NCAS &amp; University of Reading</a>. <a href='mailto:e.gentile@reading.ac.uk'>e.gentile@reading.ac.uk</a>. <em>From turbulence to global change: precision matters.</em>"
+subtitle: "Research Scientist @ NCAS & University of Reading"
 
 profile:
   align: right
