@@ -9,8 +9,8 @@ profile:
   image: prof_pic_new.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>HP 286 </p>
-    <p>University of Reading (NCAS)</p>
+    <p>286 HP</p>
+    <p>University of Reading</p>
     <p>Earley Gate</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
