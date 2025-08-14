@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "Research Scientist @ NCAS & University of Reading"
+subtitle: Research Scientist @ NCAS & University of Reading
 
 profile:
   align: right
