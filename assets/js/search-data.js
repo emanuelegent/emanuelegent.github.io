@@ -446,8 +446,8 @@ ninja.data = [{
           section: "News",},{id: "news-my-latest-paper-modelling-intense-storms-hitting-the-uk-and-europe-with-the-latest-km-scale-gfdl-climate-model-is-out",
           title: 'My latest paper modelling intense storms hitting the Uk and Europe with the...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-announcement-2",
+          title: 'Announcement_2',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
