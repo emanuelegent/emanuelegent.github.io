@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an **atmospheric physicist and climate modeler** with a background in **theoretical physics**. I combine **kilometre-scale climate models**, **higher-order turbulence physics**, and emerging **AI and machine-learning tools** to investigate how **moist convection** and **sub-grid turbulent processes** shape **near-surface extremes** and how **mesoscale weather** responds to **climate change**. I also study **large-scale atmospheric dynamics** and their feedbacks with **ocean–wave–atmosphere exchanges** and **land–atmosphere interactions**, treating climate as an **interconnected system**. 
+I am an **atmospheric physicist** and **climate modeler** with a background in **theoretical physics**. I combine **km-scale** climate **models**, **higher-order turbulence physics**, and emerging **AI and ML** to inves tools to investigate how moist convection and sub-grid turbulent processes shape near-surface **extremes** and how mesoscale weather responds to **climate change**. I treat the Earth's climate as  **interconnected system**, studying large-scale atmospheric dynamics interactions between land, ocean, waves and atmosphere. 
 
 I am currently working as a Research Scientist at [NCAS](https://ncas.ac.uk/) and [University of Reading](https://www.reading.ac.uk/meteorology/) within the [CANARI](https://canari.ac.uk/) project, running very high resolution simulations to assess how climate change is altering heavy precipitation, inland flooding, and extreme winds across the UK and North Atlantic region. 
 
