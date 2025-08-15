@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Scientist @ NCAS "From turbulence to climate risk: modelling extremes in a warming world."
 
 profile:
   align: right
