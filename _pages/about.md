@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>286 HP </p>
     <p>University of Reading</p>
-    <p>Earley Gate</p>
+    <p>Earley Gate, Reading, UK</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
