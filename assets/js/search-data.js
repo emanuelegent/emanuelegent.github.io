@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "&quot;The mind is not a vessel to be filled but a fire to be kindled.&quot; - Plutarch",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-people",
           title: "people",
           description: "members of the lab or group",
