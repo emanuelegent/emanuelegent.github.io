@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description:   *"The mind is not a vessel to be filled but a fire to be kindled."* - Plutarch
+description:  '"The mind is not a vessel to be filled but a fire to be kindled." - Plutarch'
 nav: true
 nav_order: 6
 ---
