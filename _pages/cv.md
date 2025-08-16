@@ -7,7 +7,6 @@ nav_order: 5
 cv_pdf: CV_gentile_final_19.06.25.pdf # you can also use external links here
 description: You are welcome to view and download my CV here!
 toc: false
-  sidebar: left
 ---
 
 <iframe src="/assets/pdf/CV_gentile_final_19.06.25.pdf" width="100%" height="800px">
