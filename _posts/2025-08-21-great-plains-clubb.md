@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Improving Nocturnal Precipitation and Low-Level Jets over the Great Plains with an Advanced Turbulence Representation"
-description: "Study based on extended CLUBB in GFDL-AM4"
+description: English version of my contribution to AISAM newsletter summarising impact of extending CLUBB on Great Plains precipitation and winds
+date: 2025-08-21 15:43:00
 categories: [blog]
 tags: [climate, turbulence, CLUBB, AM4]
 images:
