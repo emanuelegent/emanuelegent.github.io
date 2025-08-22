@@ -63,13 +63,23 @@ The reference simulations with GFDL-AM4 reproduce the model’s well-known bias 
 
 The implementation of the CLUBB scheme produces the first improvements (Fig. 2a,c,e). Simulations with diagnostic momentum fluxes (AM4-CLUBB_DM) slightly reduce the phase bias, shifting the precipitation maximum toward the evening hours. A more substantial improvement emerges with the prognostic treatment of momentum fluxes (AM4-CLUBB_PM): here, the precipitation peak occurs around 03 UTC on average, much closer to the observed 01–02 UTC. The amplitude of the diurnal cycle also increases, leading to an overall 40% improvement compared to the standard model version.
 
-<img src="{{ site.baseurl }}/assets/img/greatplains_fig2.png" alt="Figure 2" width="600">
+{% include figure.liquid 
+    path="assets/img/greatplains_fig2.png" 
+    class="img-fluid rounded z-depth-1" 
+    caption="Same as Fig. 1 but for the AM4 configuration with CLUBB employing the diagnostic momentum flux (a–c–e) and for the AM4 configuration combining prognostic momentum flux with the multiscale turbulent length scale." 
+    width="70%" 
+%}
 
 Introducing the multiscale turbulent length scale in combination with prognostic momentum fluxes (AM4-CLUBB_PM_X) yields further benefits (Fig. 2b,d,f). Mean nocturnal precipitation over the central Great Plains approaches satellite-derived values, with the bias reduced to less than –1 mm/day (compared with –3 mm/day in the control simulation). The hourly distribution also exhibits a clear nocturnal maximum and a more pronounced afternoon minimum, indicating a more realistic coupling between the stable PBL and nocturnal convection.
 
 Additional analyses with AM4 coupled to the extended CLUBB turbulence scheme reveal how parameterization choices crucially affect the representation of the nocturnal LLJ over the Great Plains (Fig. 3). In the nocturnal vertical profiles, both the diagnostic and prognostic momentum flux versions with a single turbulent length scale (AM4-CLUBB_DM and AM4-CLUBB_PM) confine turbulent activity to the lowest ~200 m, with rapid decay of fluxes and variances above this level. In contrast, the multiscale formulation sustains water vapor and liquid potential temperature fluxes well beyond 2000 m (AM4-CLUBB_DM_X and AM4-CLUBB_PM_X), accompanied by enhanced vertical velocity skewness and stronger nocturnal convection.
 
-<img src="{{ site.baseurl }}/assets/img/greatplains_fig3.png" alt="Figure 3" width="80%">
+{% include figure.liquid 
+    path="assets/img/greatplains_fig3.png" 
+    class="img-fluid rounded z-depth-1" 
+    caption="Figure 3. Vertical profiles of selected CLUBB higher-order moments such as moisture flux (a), vertical velocity variance (b), and skewness (c). The baseline CLUBB configuration in AM4 (AM4-CLUBB_DM) is shown in orange; the version that directly prognoses the momentum flux (AM4-CLUBB_PM) in pink; and the versions that add the multiscale turbulent length scale to the diagnostic (AM4-CLUBB_DM_X) or prognostic (AM4-CLUBB_PM_X) momentum flux are shown in green and dark blue, respectively." 
+    width="70%" 
+%}
 
 Regarding the LLJ structure, all configurations capture the main features of the observed summertime circulation. However, adopting prognostic momentum fluxes strengthens the jet by ~2 m/s compared to the diagnostic configuration, particularly near the Rocky Mountains. By contrast, the multiscale turbulent length scale tends to weaken the jet, with winds up to 2.5 m/s slower in the jet core.
 
@@ -77,7 +87,12 @@ Comparison with ARM Southern Great Plains observations (Fig.4) indicates that th
 
 Finally, analysis of the momentum flux budgets highlights that the multiscale formulation substantially enhances buoyancy-driven turbulence production, promoting more frequent counter-gradient fluxes and pointing to a stronger role of deep, non-local eddies in nighttime mixing around the LLJ core.
 
-<img src="{{ site.baseurl }}/assets/img/greatplains_fig4.png" alt="Figure 4" width="70%">
+{% include figure.liquid 
+    path="assets/img/greatplains_fig4.png" 
+    class="img-fluid rounded z-depth-1" 
+    caption="Figure 4. Vertical profiles of the meridional wind over the Great Plains in Oklahoma. The colors follow the scheme in Fig. 3, with the addition of the original AM4 configuration without CLUBB (blue) and the ARM observations (black)." 
+    width="70%" 
+%}
 
 ---
 
