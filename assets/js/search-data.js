@@ -62,6 +62,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/great-plains-clubb/";
           
         },
+      },{id: "post-poleward-intensification-of-midlatitude-extreme-winds-under-warmer-climate",
+        
+          title: "Poleward Intensification of Midlatitude Extreme Winds Under Warmer Climate",
+        
+        description: "Repost of the npj Climate and Atmospheric Science research highlight in the GFDL/NOAA winter bulletin",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/gfdl-highlight/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
