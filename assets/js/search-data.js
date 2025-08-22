@@ -73,6 +73,17 @@ ninja.data = [{
             window.location.href = "/blog/2024/gfdl-highlight/";
           
         },
+      },{id: "post-machine-learning-complement-or-replacement-of-numerical-weather-prediction",
+        
+          title: "Machine Learning: complement or replacement of Numerical Weather Prediction?",
+        
+        description: "Personal opinion post on the future of machine learning for weather prediction.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/social-metwork-gentile/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
