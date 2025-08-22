@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "Improving Nocturnal Precipitation and Low-Level Jets over the Great Plains with an Advanced...",
         
-        description: "English version of my contribution to AISAM newsletter summarising impact of extending CLUBB on Great Plains precipitation and winds",
+        description: "English version of my contribution to AISAM newsletter based on my JAMES paper which shows how extending the higher-order scheme CLUBB improves the nocturnal precipitation peak on the Great Plains along with the associated Low-Level Jet wind structure.",
         section: "Posts",
         handler: () => {
           
