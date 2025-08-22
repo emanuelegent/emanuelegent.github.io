@@ -53,7 +53,13 @@ The comparison between simulations and observations enabled assessment of both t
 
 The reference simulations with GFDL-AM4 reproduce the model’s well-known bias (Fig. 1): the diurnal cycle of summer precipitation over the Great Plains shows an afternoon maximum instead of a nocturnal one, with an average lead of 6–8 hours compared to IMERG satellite observations. The amplitude of the cycle is also too weak, with values nearly halved relative to observations. This deficit is tightly linked to the model’s difficulty in representing Low-Level Jets (LLJs) and the associated nighttime moisture transport from the Gulf of Mexico.
 
-<img src="{{ site.baseurl }}/assets/img/greatplains_fig1.png" alt="Figure 1" width="70%">
+{% include figure.liquid 
+    path="assets/img/greatplains_fig1.png" 
+    class="img-fluid rounded z-depth-1" 
+    caption="Figure1: Mean characteristics of precipitation and diurnal cycle during boreal summer (JJA) over the Contiguous United States (CONUS). Panels (a–c–e) show respectively: (a) the mean precipitation rate [mm day⁻¹], (c) the amplitude [mm day⁻¹], and (e) the phase [hour of maximum in LST] derived from the satellite product IMERG. Panels (b–d–f) report the corresponding fields from the AM4 control simulation. The phase is defined as the local solar time (LST) of the precipitation peak, while the amplitude corresponds to the magnitude of the first diurnal harmonic. The phase scale is circular (0–24 LST), with warmer colors indicating afternoon maxima and cooler colors indicating nocturnal or early morning maxima." 
+    width="70%" 
+%}
+
 
 The implementation of the CLUBB scheme produces the first improvements (Fig. 2a,c,e). Simulations with diagnostic momentum fluxes (AM4-CLUBB_DM) slightly reduce the phase bias, shifting the precipitation maximum toward the evening hours. A more substantial improvement emerges with the prognostic treatment of momentum fluxes (AM4-CLUBB_PM): here, the precipitation peak occurs around 03 UTC on average, much closer to the observed 01–02 UTC. The amplitude of the diurnal cycle also increases, leading to an overall 40% improvement compared to the standard model version.
 
@@ -63,7 +69,7 @@ Introducing the multiscale turbulent length scale in combination with prognostic
 
 Additional analyses with AM4 coupled to the extended CLUBB turbulence scheme reveal how parameterization choices crucially affect the representation of the nocturnal LLJ over the Great Plains (Fig. 3). In the nocturnal vertical profiles, both the diagnostic and prognostic momentum flux versions with a single turbulent length scale (AM4-CLUBB_DM and AM4-CLUBB_PM) confine turbulent activity to the lowest ~200 m, with rapid decay of fluxes and variances above this level. In contrast, the multiscale formulation sustains water vapor and liquid potential temperature fluxes well beyond 2000 m (AM4-CLUBB_DM_X and AM4-CLUBB_PM_X), accompanied by enhanced vertical velocity skewness and stronger nocturnal convection.
 
-<img src="{{ site.baseurl }}/assets/img/greatplains_fig3.png" alt="Figure 3" width="600">
+<img src="{{ site.baseurl }}/assets/img/greatplains_fig3.png" alt="Figure 3" width="80%">
 
 Regarding the LLJ structure, all configurations capture the main features of the observed summertime circulation. However, adopting prognostic momentum fluxes strengthens the jet by ~2 m/s compared to the diagnostic configuration, particularly near the Rocky Mountains. By contrast, the multiscale turbulent length scale tends to weaken the jet, with winds up to 2.5 m/s slower in the jet core.
 
@@ -71,7 +77,7 @@ Comparison with ARM Southern Great Plains observations (Fig.4) indicates that th
 
 Finally, analysis of the momentum flux budgets highlights that the multiscale formulation substantially enhances buoyancy-driven turbulence production, promoting more frequent counter-gradient fluxes and pointing to a stronger role of deep, non-local eddies in nighttime mixing around the LLJ core.
 
-<img src="{{ site.baseurl }}/assets/img/greatplains_fig4.png" alt="Figure 4" width="600">
+<img src="{{ site.baseurl }}/assets/img/greatplains_fig4.png" alt="Figure 4" width="70%">
 
 ---
 
