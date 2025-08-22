@@ -91,22 +91,7 @@ ninja.data = [{
           section: "News",},{id: "news-the-preprint-of-our-latest-study-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure-is-now-online-we-show-how-directly-prognosing-the-momentum-flux-and-using-a-multiscale-turbulent-lengthscale-in-the-higher-order-closure-clubb-turbulence-scheme-improves-precipitation-timing-and-the-representation-of-low-level-jets-in-high-resolution-climate-simulations",
           title: 'The preprint of our latest study, Enhancing Great Plains Nocturnal Precipitation and Low-Level...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
