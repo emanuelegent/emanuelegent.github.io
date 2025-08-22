@@ -14,7 +14,7 @@ images:
   spotlight: true
   venobox: true
 ---
-*This post is based on the paper <a href="https://www.authorea.com/users/745948/articles/1325061-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure" style="color:#28a745;">Enhancing Great Plains Nocturnal Precipitation and Low-Level Jets in AM4 with an Extended CLUBB Closure</a>, a collaboration with <a href="https://uwm.edu/math/people/larson-vincent/" style="color:#28a745;">Prof. Vince Larson</a>, <a href="https://www.gfdl.noaa.gov/ming-zhao-homepage/" style="color:#28a745;">Dr. Ming Zhao</a>, <a href="https://www.met.psu.edu/directory/colin-zarzycki" style="color:#28a745;">Prof. Colin Zarzycki</a>, <a href="https://www.su.se/english/profiles/gsven-1.182452" style="color:#28a745;">Prof. Gunilla Svensson</a>, and <a href="https://www.gfdl.noaa.gov/leo-donner-homepage/" style="color:#28a745;">Dr. Leo Donner</a>.*
+*This post is based on the paper <a href="https://www.authorea.com/users/745948/articles/1325061-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure" style="color:#28a745;">Enhancing Great Plains Nocturnal Precipitation and Low-Level Jets in AM4 with an Extended CLUBB Closure</a>, a collaboration with <a href="https://uwm.edu/math/people/larson-vincent/" style="color:#28a745;">Prof. Vince Larson</a>, <a href="https://www.gfdl.noaa.gov/ming-zhao-homepage/" style="color:#28a745;">Dr. Ming Zhao</a>, <a href="https://www.met.psu.edu/directory/colin-zarzycki" style="color:#28a745;">Prof. Colin Zarzycki</a>, <a href="https://www.su.se/english/profiles/gsven-1.182452" style="color:#28a745;">Prof. Gunilla Svensson</a>, and <a href="https://www.gfdl.noaa.gov/leo-donner-homepage/">Dr. Leo Donner</a>.*
 
 ## Background
 The Great Plains of the United States represent one of the most complex natural laboratories for studying convective meteorology and its interaction with strong wind currents flowing from south to north. In summer, this vast region is characterized by a nocturnal maximum of precipitation, linked to the formation of low-level jets (LLJ): intense currents that develop within the first kilometers of the atmosphere and transport large amounts of moisture from the Gulf of Mexico northward. This transport favors the initiation of thunderstorms even in the absence of strong synoptic forcing, making nocturnal convective events a key element of the regional climate.
@@ -53,17 +53,17 @@ The comparison between simulations and observations enabled assessment of both t
 
 The reference simulations with GFDL-AM4 reproduce the model’s well-known bias (Fig. 1): the diurnal cycle of summer precipitation over the Great Plains shows an afternoon maximum instead of a nocturnal one, with an average lead of 6–8 hours compared to IMERG satellite observations. The amplitude of the cycle is also too weak, with values nearly halved relative to observations. This deficit is tightly linked to the model’s difficulty in representing Low-Level Jets (LLJs) and the associated nighttime moisture transport from the Gulf of Mexico.
 
-![Figure 1: Mean characteristics of precipitation and its diurnal cycle during boreal summer (JJA) over CONUS. Satellite observations vs AM4 control.](assets/img/greatplains_fig1.png)
+![Figure 1: Mean characteristics of precipitation and its diurnal cycle during boreal summer (JJA) over CONUS. Satellite observations vs AM4 control.](/assets/img/greatplains_fig1.png)
 
 The implementation of the CLUBB scheme produces the first improvements (Fig. 2a,c,e). Simulations with diagnostic momentum fluxes (AM4-CLUBB_DM) slightly reduce the phase bias, shifting the precipitation maximum toward the evening hours. A more substantial improvement emerges with the prognostic treatment of momentum fluxes (AM4-CLUBB_PM): here, the precipitation peak occurs around 03 UTC on average, much closer to the observed 01–02 UTC. The amplitude of the diurnal cycle also increases, leading to an overall 40% improvement compared to the standard model version.
 
-![Figure 2: Same as Fig.1 but for AM4-CLUBB_DM and AM4-CLUBB_PM_X configurations.](assets/img/greatplains_fig2.png)
+![Figure 2: Same as Fig.1 but for AM4-CLUBB_DM and AM4-CLUBB_PM_X configurations.](/assets/img/greatplains_fig2.png)
 
 Introducing the multiscale turbulent length scale in combination with prognostic momentum fluxes (AM4-CLUBB_PM_X) yields further benefits (Fig. 2b,d,f). Mean nocturnal precipitation over the central Great Plains approaches satellite-derived values, with the bias reduced to less than –1 mm/day (compared with –3 mm/day in the control simulation). The hourly distribution also exhibits a clear nocturnal maximum and a more pronounced afternoon minimum, indicating a more realistic coupling between the stable PBL and nocturnal convection.
 
 Additional analyses with AM4 coupled to the extended CLUBB turbulence scheme reveal how parameterization choices crucially affect the representation of the nocturnal LLJ over the Great Plains (Fig. 3). In the nocturnal vertical profiles, both the diagnostic and prognostic momentum flux versions with a single turbulent length scale (AM4-CLUBB_DM and AM4-CLUBB_PM) confine turbulent activity to the lowest ~200 m, with rapid decay of fluxes and variances above this level. In contrast, the multiscale formulation sustains water vapor and liquid potential temperature fluxes well beyond 2000 m (AM4-CLUBB_DM_X and AM4-CLUBB_PM_X), accompanied by enhanced vertical velocity skewness and stronger nocturnal convection.
 
-![Figure 3: Vertical profiles of higher-order CLUBB moments such as humidity flux, vertical velocity variance, and skewness.](assets/img/greatplains_fig3.png)
+![Figure 3: Vertical profiles of higher-order CLUBB moments such as humidity flux, vertical velocity variance, and skewness.](/assets/img/greatplains_fig3.png)
 
 Regarding the LLJ structure, all configurations capture the main features of the observed summertime circulation. However, adopting prognostic momentum fluxes strengthens the jet by ~2 m/s compared to the diagnostic configuration, particularly near the Rocky Mountains. By contrast, the multiscale turbulent length scale tends to weaken the jet, with winds up to 2.5 m/s slower in the jet core.
 
@@ -71,7 +71,7 @@ Comparison with ARM Southern Great Plains observations (Fig.4) indicates that th
 
 Finally, analysis of the momentum flux budgets highlights that the multiscale formulation substantially enhances buoyancy-driven turbulence production, promoting more frequent counter-gradient fluxes and pointing to a stronger role of deep, non-local eddies in nighttime mixing around the LLJ core.
 
-![Figure 4: Vertical profiles of meridional wind in the Great Plains from different model configurations compared to ARM observations.](assets/img/greatplains_fig4.png)
+![Figure 4: Vertical profiles of meridional wind in the Great Plains from different model configurations compared to ARM observations.](/assets/img/greatplains_fig4.png)
 
 ---
 
