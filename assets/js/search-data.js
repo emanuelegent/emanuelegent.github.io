@@ -77,12 +77,7 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-my-latest-paper-modelling-intense-storms-hitting-the-uk-and-europe-with-the-latest-km-scale-gfdl-climate-model-is-out",
+      },{id: "news-my-latest-paper-modelling-intense-storms-hitting-the-uk-and-europe-with-the-latest-km-scale-gfdl-climate-model-is-out",
           title: 'My latest paper modelling intense storms hitting the Uk and Europe with the...',
           description: "",
           section: "News",},{id: "news-i-am-thrilled-to-announce-that-i-am-joining-ncas-and-the-university-of-reading-as-research-scientist-i-will-use-and-further-improve-the-latest-state-of-the-art-climate-models-to-run-high-resolution-climate-simulations-of-how-climate-change-is-altering-heavy-rainfall-flooding-and-extreme-winds-across-the-uk-and-north-atlantic",
