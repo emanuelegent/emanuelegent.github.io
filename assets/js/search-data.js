@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-improving-nocturnal-precipitation-and-low-level-jets-over-the-great-plains-with-an-advanced-turbulence-representation",
+        },{id: "post-kilometer-scale-climate-intelligence-for-a-regenerative-urban-future",
+        
+          title: "Kilometer-Scale Climate Intelligence for a Regenerative Urban Future",
+        
+        description: "Climate-informed design and bioplanning at kilometre scale",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/bioplanning_climate/";
+          
+        },
+      },{id: "post-improving-nocturnal-precipitation-and-low-level-jets-over-the-great-plains-with-an-advanced-turbulence-representation",
         
           title: "Improving Nocturnal Precipitation and Low-Level Jets over the Great Plains with an Advanced...",
         
