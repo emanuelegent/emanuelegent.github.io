@@ -28,7 +28,7 @@ the fine structure of valleys, ridges, and coastlines that shape ecological func
 
 <div style="text-align: center;">
 {% include figure.liquid 
-    path="assets/img/km-scale_mountains.png" 
+    path="assets/img/km-scale_mountains.jpg" 
     class="img-fluid rounded z-depth-1" 
     caption="Figure 1. Global climate model representation of California elevations (left) compared to km-scale precision climate information (right). Adapted from [6]." 
     width="70%" 
@@ -47,7 +47,7 @@ and design-ready intelligence.
 
 <div style="text-align: center;">
 {% include figure.liquid 
-    path="assets/img/alphaearth.png" 
+    path="assets/img/alphaearth.jpg" 
     class="img-fluid rounded z-depth-1" 
     caption="Figure 2. Example of how Google DeepMind’s AlphaEarth can visualize with unprecedented realism the fine details of our world. This snapshot illustrates agricultural land parcels in Ecuador, resolved clearly despite the presence of cloud cover that would normally obstruct conventional satellite imagery.
     Such AI-enabled reconstruction demonstrates how foundation models can transform raw Earth observations into decision-ready intelligence. Taken from [7]." 
