@@ -47,7 +47,7 @@ and design-ready intelligence.
 
 <div style="text-align: center;">
 {% include figure.liquid 
-    path="assets/img/alphaearth.jpg" 
+    path="assets/img/alpha_earth.jpg" 
     class="img-fluid rounded z-depth-1" 
     caption="Figure 2. Example of how Google DeepMind’s AlphaEarth can visualize with unprecedented realism the fine details of our world. This snapshot illustrates agricultural land parcels in Ecuador, resolved clearly despite the presence of cloud cover that would normally obstruct conventional satellite imagery.
     Such AI-enabled reconstruction demonstrates how foundation models can transform raw Earth observations into decision-ready intelligence. Taken from [7]." 
