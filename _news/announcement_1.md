@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-01-22 15:59:00-0400
+date: 2025-11-12 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-My latest paper [modelling intense storms hitting the Uk and Europe with the latest km-scale GFDL climate model](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL112570) is out!
+Looking forward to attending the Weather and Risk Management European Meeting [WRMA](https://wrma.org/page/european-meeting-2025) in Paris to explore how weather and climate science help build a more resilient insurance, risk and finance sector, and support a sustainable future.
