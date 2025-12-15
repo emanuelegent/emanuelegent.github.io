@@ -6,7 +6,9 @@ description:  '"The mind is not a vessel to be filled but a fire to be kindled."
 nav: true
 nav_order: 6
 ---
-
+### Teaching Assistant, University of Reading, UK (2025-present) ###
+- Conducted teaching & tutorial sessions in Numerical Modelling for Weather and Climate Science engaging undergraduate students from the 2nd and 3rd year of the Meteorology undergraduate programme.
+  
 #### Guest Lecture, Climatebase (2024)
 - Delivered a guest lecture on current climate models and recent breakthroughs in the field to approximately 100 Climatebase fellows, going through a 12-week bootcamp to incorporate key ideas of climate modelling in their job.
 
