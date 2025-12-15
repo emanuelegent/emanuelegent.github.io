@@ -99,14 +99,14 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "news-new-preprint-on-ai-weather-prediction-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
-          title: '📄 New preprint on AI weather prediction — A process-based evaluation of how...',
-          description: "",
-          section: "News",},{id: "news-the-preprint-of-our-latest-study-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure-is-now-online-we-show-how-directly-prognosing-the-momentum-flux-and-using-a-multiscale-turbulent-lengthscale-in-the-higher-order-closure-clubb-turbulence-scheme-improves-precipitation-timing-and-the-representation-of-low-level-jets-in-high-resolution-climate-simulations",
+      },{id: "news-the-preprint-of-our-latest-study-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure-is-now-online-we-show-how-directly-prognosing-the-momentum-flux-and-using-a-multiscale-turbulent-lengthscale-in-the-higher-order-closure-clubb-turbulence-scheme-improves-precipitation-timing-and-the-representation-of-low-level-jets-in-high-resolution-climate-simulations",
           title: 'The preprint of our latest study, Enhancing Great Plains Nocturnal Precipitation and Low-Level...',
           description: "",
           section: "News",},{id: "news-looking-forward-to-attending-the-weather-and-risk-management-european-meeting-wrma-in-paris-to-explore-how-weather-and-climate-science-help-build-a-more-resilient-insurance-risk-and-finance-sector-and-support-a-sustainable-future",
           title: 'Looking forward to attending the Weather and Risk Management European Meeting WRMA in...',
+          description: "",
+          section: "News",},{id: "news-new-preprint-on-ai-weather-prediction-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
+          title: '📄 New preprint on AI weather prediction — A process-based evaluation of how...',
           description: "",
           section: "News",},{
         id: 'social-email',
