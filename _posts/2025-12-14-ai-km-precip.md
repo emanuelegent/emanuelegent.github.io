@@ -176,4 +176,4 @@ The diurnal precipitation cycle should play a central role in this effort. As a 
 Sub-daily precipitation is not a niche detail. It is a window into how models represent the atmosphere. By focusing on *when* rain falls, rather than only *how much*, we gain sharper insight into the strengths and limitations of both AI-based and physics-based weather prediction systems.
 
 📌 **Preprint available here:**  
-The preprint is available [here]([https://doi.org/10.22541/essoar.176538317.73098714](https://essopenarchive.org/doi/full/10.22541/essoar.176538317.73098714).
+The preprint is available [here](https://essopenarchive.org/doi/full/10.22541/essoar.176538317.73098714).
