@@ -1,9 +1,8 @@
 ---
 layout: post
-date: 2025-08-15 07:59:00-0400
+date: 2025-12-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-The preprint of our latest study, [Enhancing Great Plains Nocturnal Precipitation and Low-Level Jets in AM4 with an Extended CLUBB Closure](https://www.authorea.com/users/745948/articles/1325061-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure), is now online!
-We show how directly prognosing the momentum flux and using a multiscale turbulent lengthscale in the higher-order closure CLUBB turbulence scheme improves precipitation timing and the representation of low-level jets in high-resolution climate simulations.
+🚀 **New project on GPU-accelerated ML weather modelling** — Starting work on a regional machine-learning demonstrator using GPUs and the **BRIS** data-driven weather forecasting model, with a focus on AI-based regional prediction and process-aware evaluation.  More on BRIS model [here](https://lumi-supercomputer.eu/data-driven-weather-forecasting-model/)
