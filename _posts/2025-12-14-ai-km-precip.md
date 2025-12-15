@@ -15,7 +15,7 @@ images:
 
 Challenges and Opportunities for AI and Kilometer-Scale Climate Modelling of Precipitation  
 Author: Emanuele Silvio Gentile, Dr  
-The preprint on which this post is based is available [here](https://doi.org/10.22541/essoar.176538317.73098714).
+The preprint on which this post is based is available [here](https://essopenarchive.org/doi/full/10.22541/essoar.176538317.73098714).
 
 One of the enduring challenges in weather and climate modelling is not predicting *how much* it rains, but *when*. The diurnal cycle of precipitation, the systematic daily rhythm through which rainfall builds, peaks, and decays, emerges from a tight coupling between radiation, surface fluxes, boundary-layer growth, convection, cloud microphysics, and mesoscale organisation. Because it integrates processes across scales, the diurnal cycle has long served as a stringent test of physical realism in atmospheric models.
 
@@ -176,4 +176,4 @@ The diurnal precipitation cycle should play a central role in this effort. As a 
 Sub-daily precipitation is not a niche detail. It is a window into how models represent the atmosphere. By focusing on *when* rain falls, rather than only *how much*, we gain sharper insight into the strengths and limitations of both AI-based and physics-based weather prediction systems.
 
 📌 **Preprint available here:**  
-The preprint is available [here](https://doi.org/10.22541/essoar.176538317.73098714).
+The preprint is available [here]([https://doi.org/10.22541/essoar.176538317.73098714](https://essopenarchive.org/doi/full/10.22541/essoar.176538317.73098714).
