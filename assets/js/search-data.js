@@ -99,14 +99,14 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "news-my-latest-paper-modelling-intense-storms-hitting-the-uk-and-europe-with-the-latest-km-scale-gfdl-climate-model-is-out",
-          title: 'My latest paper modelling intense storms hitting the Uk and Europe with the...',
-          description: "",
-          section: "News",},{id: "news-i-am-thrilled-to-announce-that-i-am-joining-ncas-and-the-university-of-reading-as-research-scientist-i-will-use-and-further-improve-the-latest-state-of-the-art-climate-models-to-run-high-resolution-climate-simulations-of-how-climate-change-is-altering-heavy-rainfall-flooding-and-extreme-winds-across-the-uk-and-north-atlantic",
+      },{id: "news-i-am-thrilled-to-announce-that-i-am-joining-ncas-and-the-university-of-reading-as-research-scientist-i-will-use-and-further-improve-the-latest-state-of-the-art-climate-models-to-run-high-resolution-climate-simulations-of-how-climate-change-is-altering-heavy-rainfall-flooding-and-extreme-winds-across-the-uk-and-north-atlantic",
           title: 'I am thrilled to announce that I am joining NCAS and the University...',
           description: "",
           section: "News",},{id: "news-the-preprint-of-our-latest-study-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure-is-now-online-we-show-how-directly-prognosing-the-momentum-flux-and-using-a-multiscale-turbulent-lengthscale-in-the-higher-order-closure-clubb-turbulence-scheme-improves-precipitation-timing-and-the-representation-of-low-level-jets-in-high-resolution-climate-simulations",
           title: 'The preprint of our latest study, Enhancing Great Plains Nocturnal Precipitation and Low-Level...',
+          description: "",
+          section: "News",},{id: "news-looking-forward-to-attending-the-weather-and-risk-management-european-meeting-wrma-in-paris-to-explore-how-weather-and-climate-science-help-build-a-more-resilient-insurance-risk-and-finance-sector-and-support-a-sustainable-future",
+          title: 'Looking forward to attending the Weather and Risk Management European Meeting WRMA in...',
           description: "",
           section: "News",},{
         id: 'social-email',
