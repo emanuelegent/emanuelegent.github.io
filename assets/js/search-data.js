@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-kilometer-scale-climate-intelligence-for-a-regenerative-urban-future",
+        },{id: "post-challenges-and-opportunities-for-ai-and-kilometer-scale-climate-modelling-of-precipitation",
+        
+          title: "Challenges and Opportunities for AI and Kilometer-Scale Climate Modelling of Precipitation",
+        
+        description: "What sub-daily precipitation reveals about GraphCast, reanalysis, and kilometer-scale climate physics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ai-km-precip/";
+          
+        },
+      },{id: "post-kilometer-scale-climate-intelligence-for-a-regenerative-urban-future",
         
           title: "Kilometer-Scale Climate Intelligence for a Regenerative Urban Future",
         
