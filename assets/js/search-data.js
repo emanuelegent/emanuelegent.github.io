@@ -99,8 +99,8 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "news-i-am-thrilled-to-announce-that-i-am-joining-ncas-and-the-university-of-reading-as-research-scientist-i-will-use-and-further-improve-the-latest-state-of-the-art-climate-models-to-run-high-resolution-climate-simulations-of-how-climate-change-is-altering-heavy-rainfall-flooding-and-extreme-winds-across-the-uk-and-north-atlantic",
-          title: 'I am thrilled to announce that I am joining NCAS and the University...',
+      },{id: "news-new-preprint-on-ai-weather-prediction-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
+          title: '📄 New preprint on AI weather prediction — A process-based evaluation of how...',
           description: "",
           section: "News",},{id: "news-the-preprint-of-our-latest-study-enhancing-great-plains-nocturnal-precipitation-and-low-level-jets-in-am4-with-an-extended-clubb-closure-is-now-online-we-show-how-directly-prognosing-the-momentum-flux-and-using-a-multiscale-turbulent-lengthscale-in-the-higher-order-closure-clubb-turbulence-scheme-improves-precipitation-timing-and-the-representation-of-low-level-jets-in-high-resolution-climate-simulations",
           title: 'The preprint of our latest study, Enhancing Great Plains Nocturnal Precipitation and Low-Level...',
