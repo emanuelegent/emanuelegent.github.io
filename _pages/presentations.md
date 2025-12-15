@@ -8,7 +8,15 @@ nav_order: 4
 ---
 
 # Invited Seminar Talks
-
+- **CNR-ISAC**, Istituto di scienze dell'atmosfera e del clima, Bologna, Italy (November 2025, In Person)
+  *Bridging Scales to Predict Wind Extremes in a Warming Climate: From General Circulation to Storm-Resolving Models*
+  
+- **CANARI Annual Workshop**, Cambridge University, British Antarctic Survey, Cambridge, UK (September 2025, In person)
+  *Response of North Atlantic Midlatitude Cyclones to a warmer climate*
+  
+- **ETH Zurich**, Department of Environmental Systems Science, Zurich, Switzerland (July 2025, In Person)
+  *Predicting wind extremes in a warming climate: from general circulation to storm-resolving models via improved turbulence representation*
+  
 - **University of Exeter**, Navigating the turbulence grey-zone in Numerical Weather Prediction, Exeter, UK (June 2025, In Person)  
   *Enhanced simulations of low-level jets and moisture transport over the US Great Plains by directly prognosing momentum flux and using a generalised turbulence length-scale.*
 
