@@ -4,6 +4,7 @@ title: "Challenges and Opportunities for AI and Kilometer-Scale Climate Modellin
 description: What sub-daily precipitation reveals about GraphCast, reanalysis, and kilometer-scale climate physics
 date: 2025-12-14 00:00:00
 categories: [blog]
+published: true
 tags: [climate, precipitation, diurnal cycle, AI, GraphCast, km-scale modelling]
 images:
   lightbox2: true
