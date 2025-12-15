@@ -70,7 +70,7 @@ However, this apparent agreement is deceptive. Mean precipitation integrates ove
     path="assets/img/fig_2_v2.jpg" 
     class="img-fluid rounded z-depth-1" 
     caption="Mean precipitation rate as in Fig. 1a,b but for ERA5 (a), GraphCast (b), and the UM 5-km model (c). Note that ERA5 and GraphCast refer to JJA~2021 while the UM 5-km simulation to JJA~2023." 
-    width="70%" 
+    width="50%" 
 %}
 </div>
 
@@ -89,7 +89,7 @@ Much larger discrepancies emerge when considering the **amplitude of the diurnal
     path="assets/img/fig3_v2.jpg" 
     class="img-fluid rounded z-depth-1" 
     caption="Diurnal amplitude of precipitation as in Fig. 1c,d but for ERA5 (a), GraphCast (b), and the UM 5-km model (c)." 
-    width="70%" 
+    width="50%" 
 %}
 </div>
 
@@ -110,7 +110,7 @@ The **timing of peak precipitation** provides the clearest separation between mo
     path="assets/img/fig4_v2.jpg" 
     class="img-fluid rounded z-depth-1" 
     caption="Phase of precipitation as in Fig. 1e,f but for ERA5 (a), GraphCast (b), and the UM 5-km experimental model (c)." 
-    width="70%" 
+    width="50%" 
 %}
 </div>
 
@@ -131,7 +131,7 @@ Domain-averaged diurnal cycles over land and ocean further clarify these behavio
     path="assets/img/fig_4_new.jpg" 
     class="img-fluid rounded z-depth-1" 
     caption="Domain averaged hourly precipitation (units: mm day$^{-1}$) wihtout projection to first harmonic over (a) global land (b) tropical ocean (c) Africa (d) Asia, (e) Europe, (f) Central US for IMERG JJA2021 (blue lines), IMERG JJA 2023 (orange lines), ERA5 JJA 2023 (green lines), GraphCast JJA 2023 (red lines), UM 5-km JJA 2021 (purple lines)." 
-    width="90%" 
+    width="60%" 
 %}
 </div>
 
