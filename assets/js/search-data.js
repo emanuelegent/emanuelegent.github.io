@@ -100,7 +100,7 @@ ninja.data = [{
           
         },
       },{id: "news-looking-forward-to-attending-the-weather-and-risk-management-european-meeting-wrma-in-paris-to-explore-how-weather-and-climate-science-help-build-a-more-resilient-insurance-risk-and-finance-sector-and-support-a-sustainable-future",
-          title: 'Looking forward to attending the Weather and Risk Management European Meeting WRMA in...',
+          title: '💰 Looking forward to attending the Weather and Risk Management European Meeting WRMA...',
           description: "",
           section: "News",},{id: "news-new-preprint-on-ai-weather-prediction-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
           title: '📄 New preprint on AI weather prediction — A process-based evaluation of how...',
