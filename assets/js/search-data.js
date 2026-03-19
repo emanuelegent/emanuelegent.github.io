@@ -99,14 +99,14 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "news-new-preprint-on-ai-weather-prediction-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
-          title: '📄 New preprint on AI weather prediction — A process-based evaluation of how...',
-          description: "",
-          section: "News",},{id: "news-new-project-on-gpu-accelerated-ml-weather-modelling-starting-work-on-a-regional-machine-learning-demonstrator-using-gpus-and-the-bris-data-driven-weather-forecasting-model-with-a-focus-on-ai-based-regional-prediction-and-process-aware-evaluation-more-on-bris-model-here",
+      },{id: "news-new-project-on-gpu-accelerated-ml-weather-modelling-starting-work-on-a-regional-machine-learning-demonstrator-using-gpus-and-the-bris-data-driven-weather-forecasting-model-with-a-focus-on-ai-based-regional-prediction-and-process-aware-evaluation-more-on-bris-model-here",
           title: '🚀 New project on GPU-accelerated ML weather modelling — Starting work on a...',
           description: "",
           section: "News",},{id: "news-awarded-a-wcssp-india-grant-50k-to-advance-ai-driven-high-resolution-regional-weather-modelling-leveraging-the-anemoi-framework",
           title: '💰 Awarded a WCSSP India grant (~£50k) to advance AI-driven high-resolution regional weather...',
+          description: "",
+          section: "News",},{id: "news-preprint-on-ai-weather-prediction-accepted-for-publication-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-the-original-preprint-is-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
+          title: '📄 Preprint on AI weather prediction accepted for publication — A process-based evaluation...',
           description: "",
           section: "News",},{
         id: 'social-email',
