@@ -99,14 +99,14 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "news-project-on-gpu-accelerated-ml-weather-modelling-now-concluded-check-out-the-blog-post-here",
-          title: '🚀 Project on GPU-accelerated ML weather modelling now concluded — check out the...',
-          description: "",
-          section: "News",},{id: "news-awarded-a-wcssp-india-grant-50k-to-advance-ai-driven-high-resolution-regional-weather-modelling-leveraging-the-anemoi-framework",
+      },{id: "news-awarded-a-wcssp-india-grant-50k-to-advance-ai-driven-high-resolution-regional-weather-modelling-leveraging-the-anemoi-framework",
           title: '💰 Awarded a WCSSP India grant (~£50k) to advance AI-driven high-resolution regional weather...',
           description: "",
           section: "News",},{id: "news-preprint-on-ai-weather-prediction-accepted-for-publication-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-the-original-preprint-is-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
           title: '📄 Preprint on AI weather prediction accepted for publication — A process-based evaluation...',
+          description: "",
+          section: "News",},{id: "news-project-on-gpu-accelerated-ml-weather-modelling-now-concluded-check-out-the-blog-post-here",
+          title: '🚀 Project on GPU-accelerated ML weather modelling now concluded — check out the...',
           description: "",
           section: "News",},{
         id: 'social-email',
