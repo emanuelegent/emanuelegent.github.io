@@ -99,8 +99,8 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "news-new-project-on-gpu-accelerated-ml-weather-modelling-starting-work-on-a-regional-machine-learning-demonstrator-using-gpus-and-the-bris-data-driven-weather-forecasting-model-with-a-focus-on-ai-based-regional-prediction-and-process-aware-evaluation-more-on-bris-model-here",
-          title: '🚀 New project on GPU-accelerated ML weather modelling — Starting work on a...',
+      },{id: "news-project-on-gpu-accelerated-ml-weather-modelling-now-concluded-check-out-the-blog-post-here",
+          title: '🚀 Project on GPU-accelerated ML weather modelling now concluded — check out the...',
           description: "",
           section: "News",},{id: "news-awarded-a-wcssp-india-grant-50k-to-advance-ai-driven-high-resolution-regional-weather-modelling-leveraging-the-anemoi-framework",
           title: '💰 Awarded a WCSSP India grant (~£50k) to advance AI-driven high-resolution regional weather...',
