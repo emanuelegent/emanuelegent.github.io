@@ -1,0 +1,219 @@
+---
+title: "Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation"
+date: 2026-03-19
+author: Emanuele Silvio Gentile
+layout: post
+---
+
+# Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation
+
+Artificial intelligence is rapidly reshaping the landscape of weather prediction. In this post, I demonstrate how the **BRIS AI weather forecasting model**—developed within ECMWF’s Anemoi framework—can be deployed on JASMIN and explore whether it can be adapted from its native Scandinavian domain to the UK.
+
+---
+
+## Why AI Weather Models Matter
+
+Traditional numerical weather prediction (NWP) models solve the governing equations of atmospheric dynamics explicitly, requiring substantial computational resources. In contrast, AI-based models learn mappings between atmospheric states from historical datasets such as ERA5.
+
+Once trained, these models:
+- Run significantly faster during inference  
+- Exploit GPU architectures efficiently  
+- Use larger effective timesteps  
+
+Recent systems such as *GraphCast*, *Pangu-Weather*, and *FourCastNet* have demonstrated competitive skill with operational NWP systems.
+
+However, most of this progress has been at the **global scale**. Extending these approaches to **regional forecasting**—where mesoscale processes dominate—remains an open challenge.
+
+---
+
+## The BRIS Model: Bridging Global and Regional Scales
+
+BRIS represents a hybrid approach combining:
+- Global atmospheric context  
+- Regional refinement via a stretched grid  
+
+It is implemented as a **graph neural network (GNN)**:
+- Nodes represent atmospheric state variables  
+- Edges define spatial connectivity and message passing  
+- Multi-scale structure enables interaction between global and regional domains  
+
+![BRIS graph architecture showing global–regional coupling and multi-scale mesh refinement](/assets/images/bris_graph.png)
+
+*Figure 1. Schematic of the BRIS architecture showing the coupling between global and regional grids and the multi-scale graph refinement structure (adapted from Nipen et al., 2025).*
+
+---
+
+## Running BRIS on JASMIN
+
+### Infrastructure Setup
+
+The BRIS model was deployed on JASMIN using:
+- NVIDIA A100 GPUs (Orchid cluster)  
+- Python environment with:
+  - `anemoi-inference`
+  - `anemoi-datasets`
+  - `earthkit`
+  - PyTorch / PyTorch Geometric  
+
+Despite non-trivial dependency management, the model ran successfully on a single GPU.
+
+---
+
+### Out-of-the-Box Execution (Scandinavian Domain)
+
+Running BRIS on its **native domain** worked seamlessly.
+
+The workflow:
+1. Prepare initial conditions  
+2. Load pretrained checkpoint  
+3. Run inference  
+4. Generate outputs  
+
+Outputs included:
+- Near-surface temperature  
+- Wind fields  
+- Surface pressure  
+- Precipitation  
+
+![BRIS forecast of 10 m wind speed over Scandinavia](/assets/images/bris_wind.png)
+
+*Figure 2. BRIS forecast of 10 m wind speed during Storm Amy (4 October 2025, 06 UTC).*
+
+This confirms that BRIS can be executed efficiently within JASMIN.
+
+---
+
+## Moving Beyond Scandinavia: UK Domain Adaptation
+
+The key question:
+
+> Can a regional AI weather model trained in one region be applied elsewhere?
+
+---
+
+### The Core Challenge: Domain Dependence
+
+Unlike NWP models, AI models are highly sensitive to:
+- Training climatology  
+- Grid structure  
+- Graph connectivity  
+
+The BRIS model was trained on a Nordic-centred stretched grid, tightly coupled to:
+- Specific node distributions  
+- Graph topology  
+- Regional datasets (MEPS)  
+
+Attempts to run it over a UK domain revealed:
+- Graph–checkpoint incompatibilities  
+- Sensitivity to domain geometry  
+- Failure when grid alignment was inconsistent  
+
+---
+
+## A Working Approach: Forecast-in-a-Box (FIAB)
+
+To address this, I adopted the **Forecast-in-a-Box (FIAB)** workflow from Destination Earth.
+
+This involved:
+- Defining graphs via YAML  
+- Constructing nodes using Anemoi tools  
+- Building connectivity using:
+  - K-nearest-neighbour edges  
+  - Multi-scale edges  
+- Preparing:
+  - Global datasets (IFS-like)  
+  - Regional cutouts (0.05°–0.1° resolution)
+
+Two domains were tested:
+1. UK-focused domain  
+2. Extended North Atlantic domain  
+
+---
+
+## What Worked—and What Didn’t
+
+### Technical Success
+
+- Inference ran successfully  
+- Outputs were generated  
+- Integration with analysis pipelines worked  
+
+### Scientific Limitations
+
+Forecasts over the new domain showed:
+- Reduced spatial coherence  
+- Less realistic structure compared to native runs  
+
+![BRIS forecasts over extended North Atlantic domain showing temperature and pressure evolution](/assets/images/bris_uk_domain.png)
+
+*Figure 3. BRIS forecasts over an extended North Atlantic domain (Storm Éowyn case). Fields show reduced coherence compared to the native Scandinavian configuration.*
+
+---
+
+## Integration with CSET
+
+BRIS outputs are generated on an **unstructured grid**, requiring post-processing before use in standard workflows.
+
+A lightweight Python script was developed to:
+1. Read BRIS NetCDF output  
+2. Interpolate onto a regular lat–lon grid  
+3. Convert to Iris cubes  
+4. Feed into CSET plotting tools  
+
+This demonstrates that AI outputs can be integrated into existing analysis frameworks with minimal effort.
+
+---
+
+## Key Lessons
+
+### 1. AI Models Are Infrastructure-Ready
+BRIS runs efficiently on JASMIN GPU infrastructure.
+
+### 2. Workflow Portability Is High
+The Anemoi framework allows flexible domain experimentation.
+
+### 3. Generalisation Is the Bottleneck
+Model performance degrades outside its training domain.
+
+---
+
+## Next Steps
+
+### Domain-Specific Training
+Fine-tuning BRIS on UK datasets (e.g. UKV) is likely essential.
+
+### Integration with Operational Pipelines
+Potential integration with:
+- UKV analysis  
+- FastNet forecasts  
+- Operational systems  
+
+### Benchmarking Against NWP
+Systematic comparison with NWP models is needed.
+
+### Expanding to Other Regions
+The workflow can support experiments in regions such as India.
+
+---
+
+## Conclusion
+
+This work demonstrates that **AI weather models are operationally deployable today**, but highlights a key limitation:
+
+> AI models remain strongly tied to their training domain.
+
+Future progress will depend on:
+- Domain adaptation strategies  
+- Improved training datasets  
+- Hybrid AI–physics approaches  
+
+---
+
+## Acknowledgements
+
+I would like to thank:
+- Harrison Cook and Mario Santa Cruz (ECMWF)  
+- Even Marius Nordhagen and Thomas Nipen (Norwegian Meteorological Institute)  
+- Huw Lewis and the FastNet team (Met Office)  
+
+for their support and collaboration throughout this work.
