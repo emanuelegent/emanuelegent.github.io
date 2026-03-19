@@ -1,8 +1,16 @@
 ---
-title: "Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation"
-date: 2026-03-16
-author: Emanuele Silvio Gentile
 layout: post
+title: "Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation"
+description: Running the BRIS graph neural network weather model on JASMIN and assessing its transferability from Scandinavia to a UK-focused domain
+date: 2026-03-16 00:00:00
+categories: [blog]
+published: true
+tags: [AI, weather prediction, BRIS, graph neural networks, ECMWF, Anemoi, JASMIN, regional modelling]
+images:
+  lightbox2: true
+  photoswipe: true
+  spotlight: true
+  venobox: true
 ---
 
 # Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation
