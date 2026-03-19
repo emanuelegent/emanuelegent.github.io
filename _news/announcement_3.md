@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🚀 **New project on GPU-accelerated ML weather modelling** — Starting work on a regional machine-learning demonstrator using GPUs and the **BRIS** data-driven weather forecasting model, with a focus on AI-based regional prediction and process-aware evaluation.  More on BRIS model [here](https://lumi-supercomputer.eu/data-driven-weather-forecasting-model/)
+🚀 **Project on GPU-accelerated ML weather modelling now concluded** — check out the blog post [here](https://lumi-supercomputer.eu/data-driven-weather-forecasting-model/)!
