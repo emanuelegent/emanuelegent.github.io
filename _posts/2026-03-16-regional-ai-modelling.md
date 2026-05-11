@@ -50,6 +50,7 @@ It is implemented as a **graph neural network (GNN)**:
     caption="Figure 1. Schematic of the BRIS graph neural network architecture showing the coupling between global and regional grids through a stretched mesh. Global grid points (green) provide large-scale context, while regional grid points (grey) refine the solution over the target domain. Information is encoded from grid points to mesh nodes, processed through multi-scale graph layers (M0, M1, M2), and decoded back to the grid, enabling interaction between global and regional atmospheric states." 
     width="55%" 
 %}
+</div>
 
 This architecture is closely aligned with ECMWF’s emerging AI Forecasting System (AIFS), making BRIS a useful prototype for regional AI forecasting within an operational ecosystem.
 
@@ -94,6 +95,7 @@ Outputs included:
     caption="Figure 2. BRIS AI forecast of 10 m wind speed over the Scandinavian domain during Storm Amy (4 October 2025, 06 UTC). The model produces dynamically coherent wind structures aligned with orography and synoptic forcing, illustrating the expected behaviour when applied within its native training domain." 
     width="80%" 
 %}
+</div>
 
 These results confirm that the BRIS inference workflow can be executed efficiently within the JASMIN infrastructure.
 
@@ -171,6 +173,7 @@ However, forecast quality degraded compared to the native configuration:
     caption="Figure 3. BRIS forecasts over an extended North Atlantic domain (Storm Éowyn case). Panels show mean sea-level pressure and 2 m temperature evolution. Compared to the Scandinavian configuration, the fields exhibit reduced coherence and less physically consistent structure, highlighting the limitations of applying the model outside its training domain." 
     width="90%" 
 %}
+</div>
 
 These results indicate that **successful execution does not imply reliable forecast skill** when the model is applied outside its training region.
 
