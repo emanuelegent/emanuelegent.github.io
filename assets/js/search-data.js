@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-challenges-and-opportunities-for-ai-and-kilometer-scale-climate-modelling-of-precipitation",
+        },{id: "post-demonstrating-the-bris-ai-weather-model-on-jasmin-and-exploring-uk-domain-adaptation",
+        
+          title: "Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation...",
+        
+        description: "Running the BRIS graph neural network weather model on JASMIN and assessing its transferability from Scandinavia to a UK-focused domain",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/regional-ai-modelling/";
+          
+        },
+      },{id: "post-challenges-and-opportunities-for-ai-and-kilometer-scale-climate-modelling-of-precipitation",
         
           title: "Challenges and Opportunities for AI and Kilometer-Scale Climate Modelling of Precipitation",
         
