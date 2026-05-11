@@ -15,7 +15,7 @@ images:
 
 # Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation
 
-Artificial intelligence is rapidly reshaping the landscape of weather prediction. In this post, I demonstrate how the **BRIS AI weather forecasting model**—developed within ECMWF’s Anemoi framework—can be deployed on JASMIN and explore whether it can be adapted from its native Scandinavian domain to the UK.
+Artificial intelligence is rapidly reshaping the landscape of weather prediction. In this post, I demonstrate how the **BRIS AI weather forecasting model**, developed within ECMWF’s Anemoi framework, can be deployed on JASMIN and explore whether it can be adapted from its native Scandinavian domain to the UK.
 
 ---
 
@@ -43,13 +43,14 @@ BRIS represents a hybrid approach combining:
 It is implemented as a **graph neural network (GNN)**:
 - Nodes represent atmospheric state variables  
 - Edges define spatial connectivity and message passing  
-- Multi-scale structure enables interaction between global and regional domains  
-
+- Multi-scale structure enables interaction between global and regional domains
+  
+<div class="text-center">
 {% include figure.liquid  
     path="assets/img/bris_net.png" 
     class="img-fluid rounded z-depth-1" 
     caption="Figure 1. Schematic of the BRIS graph neural network architecture showing the coupling between global and regional grids through a stretched mesh. Global grid points (green) provide large-scale context, while regional grid points (grey) refine the solution over the target domain. Information is encoded from grid points to mesh nodes, processed through multi-scale graph layers (M0, M1, M2), and decoded back to the grid, enabling interaction between global and regional atmospheric states." 
-    width="70%" 
+    width="60%" 
 %}
 
 This architecture is closely aligned with ECMWF’s emerging AI Forecasting System (AIFS), making BRIS a useful prototype for regional AI forecasting within an operational ecosystem.
@@ -88,8 +89,9 @@ Outputs included:
 - Surface pressure  
 - Precipitation  
 
+<div class="text-center">
 {% include figure.liquid  
-    path="assets/img/bris_scandinavian_domain.png" 
+    path="assets/img/bris_scandinavia_domain.png" 
     class="img-fluid rounded z-depth-1" 
     caption="Figure 2. BRIS AI forecast of 10 m wind speed over the Scandinavian domain during Storm Amy (4 October 2025, 06 UTC). The model produces dynamically coherent wind structures aligned with orography and synoptic forcing, illustrating the expected behaviour when applied within its native training domain." 
     width="80%" 
@@ -164,6 +166,7 @@ However, forecast quality degraded compared to the native configuration:
 - Less realistic large-scale structure  
 - Inconsistent evolution of meteorological fields  
 
+<div class="text-center">
 {% include figure.liquid  
     path="assets/img/forecasts_extended_new.png" 
     class="img-fluid rounded z-depth-1" 
