@@ -9,7 +9,7 @@ profile:
   image: prof_pic_new.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>City of London </p>
+    <p>City of London, </p>
     <p>United Kingdom</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,9 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an **atmospheric physicist**, **weather and climate modeler**, and **quantitative weather analyst** with a background in **theoretical physics**, working at the intersection of **weather forecasting**, **AI-driven environmental analytics**, and **risk-sensitive decision systems** for energy and commodity markets. My work focuses on the development, evaluation, and scaling of weather analytics and forecasting platforms, combining expertise in **numerical weather prediction (NWP)**, **AI-based forecasting systems**, and **statistical post-processing** to support weather-informed market analysis and risk assessment.  
+I am an **atmospheric physicist**, **weather and climate modeler**, and **quantitative weather analyst** with a background in **theoretical physics**, working at the intersection of **weather forecasting**, **AI-driven environmental analytics**, and **risk-sensitive decision systems** for energy and commodity markets. My work focuses on the development, evaluation, and scaling of weather analytics and forecasting platforms, combining expertise in **numerical weather prediction (NWP)**, **AI-based forecasting systems**, and **statistical post-processing**, applied to energy and commodity markets.  
 
-My experience spans the monitoring, recalibration, and improvement of weather algorithms and forecast workflows, alongside the evaluation of both conventional and AI-driven forecasting systems using structured verification and benchmarking methodologies. I work closely across quantitative research, technology/data engineering, and trading functions, helping translate weather processes and forecast uncertainty into actionable analytical frameworks and operational tools. This includes contributing to data pipeline design, researching new historical and real-time weather datasets, and assessing emerging forecasting technologies across a range of temporal and spatial scales.  
+My experience spans the monitoring, recalibration, and improvement of weather algorithms and forecast workflows, alongside the evaluation of both conventional and AI-driven forecasting systems using structured verification and benchmarking methodologies. I work closely across quantitative research, technology/data engineering, and trading functions, helping translate weather processes and forecast uncertainty into actionable analytical frameworks and operational tools. 
 
 Alongside operational and applied forecasting work, I maintain a strong research background in **km-scale climate modelling**, **boundary-layer turbulence**, and **extreme weather dynamics**. My previous research combined high-resolution climate models, large-ensemble simulations, and higher-order turbulence representations to investigate how moist convection and sub-grid processes shape near-surface extremes and large-scale atmospheric circulation under climate change. More broadly, my work bridges physically interpretable atmospheric science with applications in **energy**, **financial risk**, and **climate-risk analytics**.
 
