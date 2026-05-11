@@ -13,8 +13,6 @@ images:
   venobox: true
 ---
 
-# Demonstrating the BRIS AI Weather Model on JASMIN and Exploring UK Domain Adaptation
-
 Artificial intelligence is rapidly reshaping the landscape of weather prediction. In this post, I demonstrate how the **BRIS AI weather forecasting model**, developed within ECMWF’s Anemoi framework, can be deployed on JASMIN and explore whether it can be adapted from its native Scandinavian domain to the UK.
 
 ---
@@ -50,7 +48,7 @@ It is implemented as a **graph neural network (GNN)**:
     path="assets/img/bris_net.png" 
     class="img-fluid rounded z-depth-1" 
     caption="Figure 1. Schematic of the BRIS graph neural network architecture showing the coupling between global and regional grids through a stretched mesh. Global grid points (green) provide large-scale context, while regional grid points (grey) refine the solution over the target domain. Information is encoded from grid points to mesh nodes, processed through multi-scale graph layers (M0, M1, M2), and decoded back to the grid, enabling interaction between global and regional atmospheric states." 
-    width="60%" 
+    width="55%" 
 %}
 
 This architecture is closely aligned with ECMWF’s emerging AI Forecasting System (AIFS), making BRIS a useful prototype for regional AI forecasting within an operational ecosystem.
