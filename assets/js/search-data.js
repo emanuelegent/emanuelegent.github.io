@@ -110,14 +110,14 @@ ninja.data = [{
             window.location.href = "/blog/2021/social-metwork-gentile/";
           
         },
-      },{id: "news-preprint-on-ai-weather-prediction-accepted-for-publication-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-the-original-preprint-is-available-on-ess-open-archive-https-essopenarchive-org-records-176538317-73098714",
-          title: '📄 Preprint on AI weather prediction accepted for publication — A process-based evaluation...',
-          description: "",
-          section: "News",},{id: "news-project-on-gpu-accelerated-ml-weather-modelling-now-concluded-check-out-the-blog-post-here",
+      },{id: "news-project-on-gpu-accelerated-ml-weather-modelling-now-concluded-check-out-the-blog-post-here",
           title: '🚀 Project on GPU-accelerated ML weather modelling now concluded — check out the...',
           description: "",
           section: "News",},{id: "news-i-am-excited-to-have-joined-nanook-energy-partners-as-a-weather-focused-quantitative-analyst",
           title: 'I am excited to have joined Nanook Energy partners as a Weather-Focused Quantitative...',
+          description: "",
+          section: "News",},{id: "news-preprint-on-ai-weather-prediction-now-published-a-process-based-evaluation-of-how-the-ai-model-graphcast-represents-the-global-diurnal-cycle-of-summer-precipitation-compared-with-satellite-observations-era5-and-a-global-5-km-convection-permitting-model-the-original-preprint-is-available-on-ess-open-archive-https-agupubs-onlinelibrary-wiley-com-doi-full-10-1029-2025gl120961",
+          title: '📄 Preprint on AI weather prediction now published — A process-based evaluation of...',
           description: "",
           section: "News",},{
         id: 'social-email',
