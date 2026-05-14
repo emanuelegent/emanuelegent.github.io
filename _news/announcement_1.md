@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am excited to have joined Nanook Energy partners as a Weather-Focused Quantitative Analyst!
+I am excited to have joined **Nanook Energy Advisors** as a **Weather-Focused Quantitative Analyst**!
